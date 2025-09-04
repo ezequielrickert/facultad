@@ -72,3 +72,54 @@ Protocol Buffers es un **formato de serialización de datos binario** desarrolla
 | **Verificación de tipos** | En tiempo de compilación                      | Solo en tiempo de ejecución | Solo en tiempo de ejecución    |
 
 
+### ¿Cuál es la definición de mensaje en el contexto de la comunicación basada en mensajes?
+
+
+>Una **unidad autónoma de información** que se intercambia entre procesos, aplicaciones o sistemas distribuidos para coordinar acciones, compartir datos o solicitar servicios.
+
+
+ **Características principales de un mensaje**
+ 
+1. **Autocontenido**: incluye tanto los datos que se transmiten (payload) como metadatos necesarios para su interpretación (encabezados, identificadores, etc.).
+    
+2. **Independiente**: puede viajar de manera aislada, sin requerir el estado previo de la comunicación (a diferencia de una llamada directa en RPC).
+    
+3. **Asincronía posible**: permite que el emisor y el receptor no estén activos al mismo tiempo (ejemplo: colas de mensajes como RabbitMQ o Kafka).
+    
+4. **Formato definido**: puede representarse en JSON, XML, Protobuf, Avro, entre otros.
+
+
+### ¿En qué escenarios se usa MPI? Listar ejemplos reales y citar fuentes.
+
+Antes... que era MPI?
+
+> Es un estándar de software para la comunicación entre procesos en sistemas de computación paralela, como clusters de ordenadores, que se basa en el modelo de "paso de mensajes". Define un conjunto de funciones que los programadores usan para crear aplicaciones paralelas portátiles y escalables, permitiendo a procesos con sus propias memorias locales intercambiar datos explícitamente a través del envío de mensajes.
+
+Para recordar, se veía de esta forma, tenía un millón de funciones:
+
+![[Pasted image 20250904091717.png]]
+
+Por lo que recuerdo de la clase, MPI era el que se usaba en supercomputadoras, son redes cerradas y muy bien monitoreadas. Como dijimos que era para supercomputadoras, vemos que los casos de uso son aquellos que requieren capacidad de cómputo enorme:
+
+- **Simulación numérica y modelado** (por ejemplo, simulaciones de fluidos, estructuras, dinámica molecular, meteorología, astrofísica) 
+    
+- **Investigación científica** en física, química, biotecnología, química computacional 
+    
+- **Modelos económicos**, simulación de crecimiento y finanzas computacionales para valoración de derivados o análisis de riesgo.
+
+
+### Explicar por qué MPI no se usa de forma generalizada en aplicaciones web.
+
+Para empezar, como fue mencionado anteriormente, MPI fue diseñado para **aplicaciones de computación paralela en clusters o supercomputadoras**, donde los procesos cooperan estrechamente y tienen **bajo nivel de comunicación directa y controlada**.
+
+Es por esto que en web tiene problemas en:
+
+1. Transporte
+   En la web, el transporte está estandarizado sobre **HTTP/HTTPS**, que no encaja con la semántica de MPI.
+   Rompe la compatibilidad con la infraestructura de Internet, que está optimizada para **request/response** y no para comunicación paralela masiva. 
+2. Persistencia de conexiones
+   **MPI** requiere mantener conexiones estables entre procesos durante toda la ejecución de un programa paralelo.
+   La **elasticidad** de las aplicaciones web (donde los nodos aparecen o desaparecen dinámicamente) es contraria al modelo rígido de MPI, que espera un número fijo de procesos al inicio.   
+3. Seguridad
+   **MPI** fue diseñado para ambientes de confianza (clusters privados). Su modelo de comunicación no incluye de forma nativa cifrado de extremo a extremo ni autenticación robusta.
+4. Compatibilidad
