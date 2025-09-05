@@ -10,7 +10,7 @@ Cuando hablamos de middleware, nos movemos un poco más al concepto de transpare
 ¿Cómo se relacionan con los siguientes conceptos?**
 
 - **HTTP**
-    - **HTTP puede actuar como el protocolo de transporte subyacente para RPC**, permitiendo que las llamadas a procedimientos se realicen a través de la red a través de una capa de conexión HTTP. Es importante entender que HTTP pertenece a la capa de aplicación, la implementación completa de RPC, junto al uso de HTTP, pertenecen a la capa de middleware.
+    - ==**HTTP puede actuar como el protocolo de transporte subyacente para RPC**, permitiendo que las llamadas a procedimientos se realicen a través de la red a través de una capa de conexión HTTP. Es importante entender que HTTP pertenece a la capa de aplicación, la implementación completa de RPC, junto al uso de HTTP, pertenecen a la capa de middleware.== Ver esto porque en clase dijeron que RPC esta por encima de HTTP
 - **REST**
     - Al igual que RPC, viene a solucionar el problema de la comunicación en aplicaciones distribuidas. Sin embargo, la forma de lograrlo es distinta. REST se encuentra en capa de aplicación, desfavorenciendo a la transparencia ya que se tiene que saber los endpoints, sistema de mensajes y metodo que se utiliza (POST, PUT, etc). Por otro lado, RPC se encuentra en capa de middleware, logra encapsular la información favoreciendo a la transparencia. La comunicación se logra accediendo a los métodos como si pertenecieran a un mismo ordenador.
 - **gRPC**
@@ -123,3 +123,12 @@ Es por esto que en web tiene problemas en:
 3. Seguridad
    **MPI** fue diseñado para ambientes de confianza (clusters privados). Su modelo de comunicación no incluye de forma nativa cifrado de extremo a extremo ni autenticación robusta.
 4. Compatibilidad
+
+### Lista 3 message brokers y sus características principales. ¿Es Apache Kafka un message broker?
+
+![[Pasted image 20250904143631.png]]
+
+**Broker**: tengo dos nodos que se comunican, hay un intermediario que es el broker. Tener un broker es una decisión de diseño de mi sistema distribuido. Por ejemplo, si mis aplicaciones hablan todos en distintos lenguajes, voy a necesitar un broker para que mi servidor reciba la infromación de una forma en particular. Los plugins son para ir agregando, por ejemplo, nuevos lenguajes sin tener que rehacer el broker de nuevo. Las multiples queues, son porque el broker tambien maneja prioridades. Las reglas del broker es por como tienen que interactuar los clientes para poder comunicarse con el broker.
+
+**Modelos de brokers**: 
+
