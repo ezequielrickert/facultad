@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5b002ce312219d76",
+        "id": "e55cdbdfe5983fde",
         "type": "tabs",
         "children": [
           {
-            "id": "7baa04901dcc8fa9",
+            "id": "c1ddbe74cb99223e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cuarto/Segundo Cuatrimestre/HackAI/09-05.md",
+                "file": "Cuarto/Segundo Cuatrimestre/Gobierno/09-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "09-05"
+              "title": "09-01"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "606934da3ed5dae7",
@@ -171,16 +170,30 @@
       "bases:Create new base": false
     }
   },
-  "active": "7baa04901dcc8fa9",
+  "active": "c1ddbe74cb99223e",
   "lastOpenFiles": [
-    "Cuarto/Segundo Cuatrimestre/Sistemas distribuidos/Guías/[2] Coordinación.md",
-    "Cuarto/Segundo Cuatrimestre/HackAI/09-05.md",
-    "Cuarto/Segundo Cuatrimestre/HackAI",
+    "Cuarto/Segundo Cuatrimestre/Gobierno/08-25.md",
+    "Cuarto/Segundo Cuatrimestre/Gobierno/09-01.md",
+    "Cuarto/Segundo Cuatrimestre/Gobierno/Imagenes/Pasted image 20250907150834.png",
+    "Cuarto/Segundo Cuatrimestre/Gobierno/08-18.md",
+    "Cuarto/Segundo Cuatrimestre/Gobierno/Imagenes",
+    "Cuarto/Segundo Cuatrimestre/Gobierno/Imagenes/Pasted image 20250907150738.png",
+    "Cuarto/Segundo Cuatrimestre/Gobierno/08-11.md",
+    "Cuarto/Segundo Cuatrimestre/Gobierno/08-04.md",
+    "Cuarto/Segundo Cuatrimestre/Gobierno",
     "Cuarto/Segundo Cuatrimestre/Sistemas distribuidos/Guías/[1] Comunicación.md",
-    "Pasted image 20250904143631.png",
+    "Cuarto/Segundo Cuatrimestre/Sistemas distribuidos/Guías/[2] Coordinación.md",
+    "Cuarto/Segundo Cuatrimestre/Sistemas distribuidos/Imagenes/Pasted image 20250904091717.png",
+    "Cuarto/Segundo Cuatrimestre/Sistemas distribuidos/Imagenes",
+    "Untitled 2.md",
+    "Cuarto/Segundo Cuatrimestre/Sistemas distribuidos/Imagenes/Pasted image 20250904143631.png",
+    "Cuarto/Segundo Cuatrimestre/HackAI/09-06.md",
+    "Cuarto/Segundo Cuatrimestre/Responsabilidad Social",
+    "Cuarto/Segundo Cuatrimestre/HackAI/09-05.md",
+    "Untitled 1.md",
+    "Cuarto/Segundo Cuatrimestre/HackAI",
     "Cuarto/Segundo Cuatrimestre/Sistemas distribuidos/Teoría/09-04.md",
     "Cuarto/Segundo Cuatrimestre/Macroeconomía/Untitled.base",
-    "Pasted image 20250904091717.png",
     "Untitled.md",
     "Cuarto/Segundo Cuatrimestre/Sistemas distribuidos/Teoría/08-07.md",
     "Cuarto/Segundo Cuatrimestre/Sistemas distribuidos/Guías",
@@ -196,10 +209,7 @@
     "Cuarto/Segundo Cuatrimestre/Macroeconomía/Untitled 1.md",
     "Untitled.base",
     "2025-09-03.md",
-    "Cuarto/Segundo Cuatrimestre",
-    "Cuarto",
     "Untitled.canvas",
-    "Welcome.md",
-    "Cuarto/Segundo Cuatrimestre/Macroeconomía"
+    "Welcome.md"
   ]
 }
