@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cuarto/Segundo Cuatrimestre/Responsabilidad Social/08-27.md",
+                "file": "Cuarto/Segundo Cuatrimestre/Responsabilidad Social/08-06.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "08-27"
+              "title": "08-06"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "606934da3ed5dae7",
@@ -172,8 +173,8 @@
   },
   "active": "c1ddbe74cb99223e",
   "lastOpenFiles": [
-    "Cuarto/Segundo Cuatrimestre/Responsabilidad Social/08-06.md",
     "Cuarto/Segundo Cuatrimestre/Responsabilidad Social/08-27.md",
+    "Cuarto/Segundo Cuatrimestre/Responsabilidad Social/08-06.md",
     "Cuarto/Segundo Cuatrimestre/Gobierno/09-01.md",
     "Cuarto/Segundo Cuatrimestre/Gobierno/08-25.md",
     "Cuarto/Segundo Cuatrimestre/Gobierno/Imagenes/Pasted image 20250907150834.png",
