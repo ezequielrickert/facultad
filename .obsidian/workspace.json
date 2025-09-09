@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cuarto/Segundo Cuatrimestre/Responsabilidad Social/08-06.md",
+                "file": "Cuarto/Segundo Cuatrimestre/Legal/09-02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "08-06"
+              "title": "09-02"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "606934da3ed5dae7",
@@ -173,7 +172,15 @@
   },
   "active": "c1ddbe74cb99223e",
   "lastOpenFiles": [
+    "Cuarto/Segundo Cuatrimestre/Legal/08-26.md",
+    "Cuarto/Segundo Cuatrimestre/Legal/09-02.md",
+    "Cuarto/Segundo Cuatrimestre/Legal/08-19.md",
+    "Cuarto/Segundo Cuatrimestre/Legal/08-12.md",
+    "Cuarto/Segundo Cuatrimestre/Legal/08-05.md",
+    "Cuarto/Segundo Cuatrimestre/Responsabilidad Social/Resumen parcial.md",
+    "Cuarto/Segundo Cuatrimestre/Legal",
     "Cuarto/Segundo Cuatrimestre/Responsabilidad Social/08-27.md",
+    "Cuarto/Segundo Cuatrimestre/Gobierno/09-08.md",
     "Cuarto/Segundo Cuatrimestre/Responsabilidad Social/08-06.md",
     "Cuarto/Segundo Cuatrimestre/Gobierno/09-01.md",
     "Cuarto/Segundo Cuatrimestre/Gobierno/08-25.md",
@@ -205,14 +212,6 @@
     "Cuarto/Segundo Cuatrimestre/Sistemas distribuidos/Teoría/08-21.md",
     "Cuarto/Segundo Cuatrimestre/Macroeconomía/Clase 09-03.md",
     "Cuarto/Segundo Cuatrimestre/Sistemas distribuidos",
-    "Cuarto/Segundo Cuatrimestre/Macroeconomía/Clase 08-27.md",
-    "Cuarto/Segundo Cuatrimestre/Macroeconomía/Clase 08-20.md",
-    "Cuarto/Segundo Cuatrimestre/Macroeconomía/Clase 08-13.md",
-    "Cuarto/Segundo Cuatrimestre/Macroeconomía/Clase 08-06.md",
-    "Cuarto/Segundo Cuatrimestre/Macroeconomía/Untitled 1.md",
-    "Untitled.base",
-    "2025-09-03.md",
-    "Untitled.canvas",
-    "Welcome.md"
+    "Untitled.canvas"
   ]
 }
