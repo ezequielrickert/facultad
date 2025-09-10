@@ -112,3 +112,64 @@
 
 # Persona humana y sus dimensiones
 
+## Dimensión social
+
+* No son granos de arena desligados entre sí, son unidos entre sí. 
+* Se puede pensar a la dimensión social de la persona como "Un simple elemento y molécula del organismo social".
+
+## Unidad de la persona
+
+### Alma y cuerpo
+
+- El alma espiritual e inmortal es el principio de unidad del ser humano, aquello por lo cual existe como un todo.
+- La persona posee razón y libre voluntad con todas las facultades corpóreas y sensibles.
+- En esta unidad de alma y cuerpo es que la persona es responsable de sus actos morales.
+
+#### Cuerpo
+
+- Es por el cuerpo que el hombre se puede insertar en el mundo material, lugar de su realización y libertad.
+- Tener por bueno y honrar a su cuerpo.
+- Por el pecado posee inclinaciones perversas del corazón.
+
+#### Alma
+
+- Supera la totalidad de las cosas y penetra en la estructura más profunda de la realidad.
+- El hombre se descubre superior al mundo material.
+
+
+El hombre se conforma como unidad de estos dos principios.
+**Alma**: forma del cuerpo, gracias al alma la materia que integra al cuerpo es humano viviente.
+
+## Apertura a la trascendencia y unicidad de la persona
+
+### Abierta a la trascendencia
+
+- Abierto al:
+	- Infinito
+	- Resto de seres creados
+	- Resto de los hombres
+	- Mundo
+	- Horizonte ilimitado del ser
+- Capacidad de trascender los objetos particulares que conoce.
+- En cierto sentido, el alma es todas las cosas (ya que captura la esencia).
+
+### Única e irrepetible
+
+- Existe como un "yo" capaz de:
+	- Autocomprenderse
+	- Autoposeerse
+	- Autodeterminarse
+- La persona humana es un ser:
+	- Inteligente
+	- Consciente
+	- Capaz de reflexionar sobre sí mismo
+	- Capaz de tener conciencia de sí y de sus propios actos.
+- Es acto de la persona ya que está a cargo de la inteligencia, conciencia y libertad.
+- La persona is **irrepetible** y tiene una **insuprimible singularidad**.
+- Impone la exigencia del respeto por parte de todos.
+
+### El respeto de la dignidad humana
+
+- Sociedad justa <=> respecto de la dignidad trascendente de la persona humana.
+- Fin último de la sociedad.
+- 
