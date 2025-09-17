@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cuarto/Segundo Cuatrimestre/Responsabilidad Social/Resumen parcial.md",
+                "file": "Cuarto/Segundo Cuatrimestre/Sistemas distribuidos/Guías/[1] Comunicación.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Resumen parcial"
+              "title": "[1] Comunicación"
+            }
+          },
+          {
+            "id": "b93afdf0731043fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cuarto/Segundo Cuatrimestre/Gobierno/08-04.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "08-04"
             }
           }
         ]
@@ -78,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "606934da3ed5dae7",
@@ -173,6 +186,14 @@
   },
   "active": "ea27312982393880",
   "lastOpenFiles": [
+    "Cuarto/Segundo Cuatrimestre/Legal/16-09.md",
+    "Untitled.md",
+    "Cuarto/Segundo Cuatrimestre/Gobierno/Resumen primer parcial.md",
+    "Cuarto/Segundo Cuatrimestre/Gobierno/08-04.md",
+    "Cuarto/Segundo Cuatrimestre/Gobierno/09-15.md",
+    "Cuarto/Segundo Cuatrimestre/Sistemas distribuidos/Teoría/09-11.md",
+    "Cuarto/Segundo Cuatrimestre/Macroeconomía/Clase 09-10.md",
+    "Cuarto/Segundo Cuatrimestre/Responsabilidad Social/Resumen parcial.md",
     "Cuarto/Segundo Cuatrimestre/Legal/09-09.md",
     "Cuarto/Segundo Cuatrimestre/Legal/Imagenes/Pasted image 20250909192221.png",
     "Welcome.md",
@@ -180,14 +201,12 @@
     "Cuarto/Segundo Cuatrimestre/Legal/Imagenes/Pasted image 20250909191845.png",
     "Cuarto/Segundo Cuatrimestre/Legal/Imagenes/Pasted image 20250909191750.png",
     "Cuarto/Segundo Cuatrimestre/Legal/Imagenes",
-    "Cuarto/Segundo Cuatrimestre/Legal/Untitled.md",
     "Cuarto/Segundo Cuatrimestre/Legal/Imagenes/Pasted image 20250909185749.png",
     "Cuarto/Segundo Cuatrimestre/Legal/09-02.md",
     "Cuarto/Segundo Cuatrimestre/Legal/08-26.md",
     "Cuarto/Segundo Cuatrimestre/Legal/08-19.md",
     "Cuarto/Segundo Cuatrimestre/Legal/08-12.md",
     "Cuarto/Segundo Cuatrimestre/Legal/08-05.md",
-    "Cuarto/Segundo Cuatrimestre/Responsabilidad Social/Resumen parcial.md",
     "Cuarto/Segundo Cuatrimestre/Legal",
     "Cuarto/Segundo Cuatrimestre/Responsabilidad Social/08-27.md",
     "Cuarto/Segundo Cuatrimestre/Gobierno/09-08.md",
@@ -199,7 +218,6 @@
     "Cuarto/Segundo Cuatrimestre/Gobierno/Imagenes",
     "Cuarto/Segundo Cuatrimestre/Gobierno/Imagenes/Pasted image 20250907150738.png",
     "Cuarto/Segundo Cuatrimestre/Gobierno/08-11.md",
-    "Cuarto/Segundo Cuatrimestre/Gobierno/08-04.md",
     "Cuarto/Segundo Cuatrimestre/Gobierno",
     "Cuarto/Segundo Cuatrimestre/Sistemas distribuidos/Guías/[1] Comunicación.md",
     "Cuarto/Segundo Cuatrimestre/Sistemas distribuidos/Guías/[2] Coordinación.md",
@@ -209,12 +227,8 @@
     "Cuarto/Segundo Cuatrimestre/Sistemas distribuidos/Imagenes/Pasted image 20250904143631.png",
     "Cuarto/Segundo Cuatrimestre/HackAI/09-06.md",
     "Cuarto/Segundo Cuatrimestre/Responsabilidad Social",
-    "Cuarto/Segundo Cuatrimestre/HackAI/09-05.md",
-    "Untitled 1.md",
     "Cuarto/Segundo Cuatrimestre/HackAI",
-    "Cuarto/Segundo Cuatrimestre/Sistemas distribuidos/Teoría/09-04.md",
     "Cuarto/Segundo Cuatrimestre/Macroeconomía/Untitled.base",
-    "Untitled.md",
     "Cuarto/Segundo Cuatrimestre/Sistemas distribuidos/Guías",
     "Cuarto/Segundo Cuatrimestre/Sistemas distribuidos/Teoría",
     "Untitled.canvas"

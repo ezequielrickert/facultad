@@ -172,4 +172,16 @@ El hombre se conforma como unidad de estos dos principios.
 
 - Sociedad justa <=> respecto de la dignidad trascendente de la persona humana.
 - Fin último de la sociedad.
-- 
+- El orden real debe someterse al orden personal, no la contrario.
+- Considerar al prójimo como otro yo.
+- La persona humana no puede ser instrumentalizada, el hombre es el único ser capaz de amar y es por esto que no pueden ser limitados de ejercer derechos y libertad.
+- Es necesario que las autoridades vigilen a las personas para que esto no ocurra.
+- Compete a las personas el ejercicio de la vida moral, no se pueden delegar a otras personas.
+
+
+## Libertad de la persona
+
+### Valor y límites de la libertad
+
+- El hombre solo puede dirigirse hacia el bien mediante la libertad.
+- La dignidad humana requiere que el hombre actúe en conciencia y con libre elección.

@@ -124,6 +124,56 @@ Es por esto que en web tiene problemas en:
    **MPI** fue diseñado para ambientes de confianza (clusters privados). Su modelo de comunicación no incluye de forma nativa cifrado de extremo a extremo ni autenticación robusta.
 4. Compatibilidad
 
+### ¿Cómo funcionan los sockets que usa ZeroMQ?¿En qué capa del modelo OSI se encuentran? ¿Qué protocolo usa ZeroMQ?
+
+Como visto en clase, los sockets de ZeroMQ proveen mayor transparencia, no es necesario saber la configuración de ip, puerto, etc. ZeroMQ está orientado a mensajes, y su comportamiento se define por el tipo de socket y el patrón de mensajería elegido:
+1. Req / Res
+2. Pub / Sub
+3. Push / Pull
+
+==preguntar en que capa se encuentran==, por lo que vi no se encuentran en una única capa.
+
+Utiliza ZMTP: este es un protocolo hecho custom sobre protocolos como TCP y PGM para la conectividad por red.
+
+Como funciona?
+
+- **Capa base:** 
+    
+    ZMTP opera sobre una capa de transporte ya existente, como TCP para conexiones de red o PGM para multidifusión. 
+    
+- **Reglas de comunicación:** 
+    
+    ZMTP define cómo se formatean los mensajes y comandos, cómo se establecen y cierran las conexiones, y cómo se gestionan los metadatos y el control. 
+    
+- **Seguridad:** 
+    
+    ZMTP tiene mecanismos de seguridad extensibles para la autenticación y el cifrado, acordados por los pares durante el establecimiento de la conexión.
+
+### Explicar las ventajas de usar ZeroMQ, haciendo énfasis en la transparencia
+
+Rendimiento y Latencia
+
+- **Alto Rendimiento y Baja Latencia**: 
+    
+    ZeroMQ está diseñado para mensajería de alto rendimiento, lo que lo hace adecuado para aplicaciones en tiempo real que necesitan entrega rápida de mensajes. 
+    
+
+Flexibilidad y Facilidad de Uso
+
+- **Patrones de Mensajería Inteligentes**: 
+    
+    Ofrece varios patrones de mensajería, como publicar/suscribir (pub-sub), solicitar/responder (request-reply) y empujar/tirar (push-pull), lo que permite implementar diversas arquitecturas. 
+    
+- **Agnosticismo de Lenguaje y Plataforma**: 
+    
+    Proporciona enlaces para múltiples lenguajes de programación (C++, Java, Python, etc.) y funciona en diversas plataformas, facilitando la integración en sistemas heterogéneos. 
+    
+- **Transporte Agnóstico**: 
+    
+    Soporta múltiples protocolos de transporte, incluyendo TCP, IPC (comunicación entre procesos), PGM (multidifusión fiable) y memoria compartida (inproc).
+
+En este último punto de "flexibilidad y facilidad de uso" podemos ver claramente la transparencia. Es independiente de las capas inferiores, del lenguaje, de la plataforma, esto hace que el cliente no se tenga que enterar de los cambios en otras capas.
+
 ### Lista 3 message brokers y sus características principales. ¿Es Apache Kafka un message broker?
 
 ![[Pasted image 20250904143631.png]]
