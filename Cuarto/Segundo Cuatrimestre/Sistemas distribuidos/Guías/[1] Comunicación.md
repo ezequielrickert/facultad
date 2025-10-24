@@ -176,9 +176,61 @@ En este último punto de "flexibilidad y facilidad de uso" podemos ver clarament
 
 ### Lista 3 message brokers y sus características principales. ¿Es Apache Kafka un message broker?
 
+**Que es un broker?**
+Un método de comunicación utilizado por el middleware de mensajería es un modelo basado en servidor que utiliza un intermediario de mensajes. Con un intermediario de mensajes, la aplicación de origen (productor) envía un mensaje a un proceso servidor que puede proporcionar la ordenación de datos, el enrutamiento, la traducción de mensajes, la persistencia y la entrega a todos los destinos apropiados (consumidores). La característica que define a un intermediario de mensajes es que es un servicio discreto. Los productores y consumidores se comunican con el intermediario mediante protocolos estándar o propietarios. El intermediario de mensajes generalmente proporciona toda la gestión del estado y el seguimiento de los clientes, de modo que las aplicaciones individuales no necesitan asumir esta responsabilidad, y la complejidad de la entrega de mensajes está integrada en el propio intermediario de mensajes.
+
+Hay dos formas básicas de comunicación con un intermediario de mensajes:
+
+- Publicar y suscribirse (Temas)
+- Punto a punto (colas)
+
+
+
 ![[Pasted image 20250904143631.png]]
 
 **Broker**: tengo dos nodos que se comunican, hay un intermediario que es el broker. Tener un broker es una decisión de diseño de mi sistema distribuido. Por ejemplo, si mis aplicaciones hablan todos en distintos lenguajes, voy a necesitar un broker para que mi servidor reciba la infromación de una forma en particular. Los plugins son para ir agregando, por ejemplo, nuevos lenguajes sin tener que rehacer el broker de nuevo. Las multiples queues, son porque el broker tambien maneja prioridades. Las reglas del broker es por como tienen que interactuar los clientes para poder comunicarse con el broker.
 
-**Modelos de brokers**: 
+Ejemplos:
+- Redis
+- IBM MQ
+- RabbitMQ
 
+**Con respecto a si kafka es o no, encontre esto en Stack Overflow:**
+
+Kafka puede reemplazar las Colas de Mensajes (MQ), como RabbitMQ o ActiveMQ, en algunas implementaciones, pero definitivamente no es MQ. Por lo tanto, esta opción está descartada.
+
+> Una **cola de mensajes** consta de dos componentes: un **intermediario de mensajes** y un cliente. El intermediario de mensajes se encarga de recibir y almacenar mensajes en una cola, y el cliente se encarga de enviar y recibir mensajes del intermediario.
+
+de un artículo de Medium [aquí](https://medium.com/@fullstacktips/mq-vs-kafka-which-messaging-system-is-right-for-your-distributed-system-692debae1033)
+
+Por lo tanto, llamar a Kafka un intermediario de mensajes también sería confuso y probablemente inexacto.
+
+Lo que podría estar causando esta confusión es que el tipo de servidor principal en un clúster de Kafka se denomina « **Broker»** , pero, como se mencionó, esto no define a Kafka y no debe usarse como sinónimo de su nombre. La mayoría de las fuentes que he consultado se refieren a Kafka como una plataforma de transmisión de eventos distribuidos.
+
+En una nota personal, para mí Kafka es una categoría propia, por lo que debería llamarse únicamente Kafka. Espero haber respondido a tu pregunta.
+
+Afinando un poco con ChatGPT, entendí lo siguiente de Kafka:
+
+> No tiene una cola implementada, se maneja 100% a base de logs inmutables. Estos logs, luego son almacenados en clústers que poseen responsabilidades. Se busca tener réplicas en los clusters de los logs y hay un líder por cluster que ordena.
+
+
+### Listar tres herramientas que sirven para desarrollar o montar Enterprise Application Integration basadas en mensajes
+
+#### Que es?
+
+Sistema que conecta aplicaciones empresariales dispares dentro de una organización, como las de CRM o ERP, para facilitar el intercambio automatizado de datos y optimizar los procesos de negocio.
+
+#### Ejemplos
+
+- IBM WebSphere MQSeries (o IBM MQ)
+
+
+### Dar un ejemplos concretos de herramientas que nos habiliten cada combinación de tipo de comunicación
+
+#### Sincrónica y transitoria
+
+#### Sincrónica y persistente
+
+#### Asincrónica y transitoria
+
+#### Asincrónica y persistente
