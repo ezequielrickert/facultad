@@ -78,7 +78,7 @@ Por lo que entiendo, dentro de cada red, cada nodo es responsable de tener una t
 
 Reduce la latencia porque, si bien el nodo recurso se puede encontrar lejos geográficamente, el nodo que almacena su dirección se encuentra dentro de una red acotada, esto hace que pedir la dirección sea más rápido.
 
-#### ==Esquemas de ubicación jerarquica==
+#### Esquemas de ubicación jerarquica
 
 Lo que yo entendí es:
 
@@ -320,7 +320,7 @@ Algunas formas de desvío son:
 
 - **Desviación en valores numéricos entre las réplicas**: diferencia absoluta entre el valor más actualizado de un dato y el valor que tiene una réplica específica.
 - **Desviación en el deterioro entre réplicas**: cantidad de tiempo que ha pasado desde que una réplica recibió (o hizo visible) la última actualización conocida globalmente.
-- ==**Desviación con respecto al ordenamiento de operaciones de actualización**==: número máximo de actualizaciones pendientes o conflictivas que una réplica puede tener sin haberlas integrado aún en el orden correcto.
+- **Desviación con respecto al ordenamiento de operaciones de actualización**: número máximo de actualizaciones pendientes o conflictivas que una réplica puede tener sin haberlas integrado aún en el orden correcto.
 
 ### Conit
 
@@ -336,7 +336,7 @@ Si una conit representa pocos datos, y éstos son independientes, se pueden actu
 
 En la consistencia centrada en datos, se proporciona una vista consistente a lo largo del sistema de un almacén de datos.
 
-### ==Consistencia secuencial==
+### Consistencia secuencial
 
 **Necesario**: cuando se generan actualizaciones en réplicas, éstas tendrán que acordar un ordenamiento global de esas actualizaciones.
 
@@ -349,7 +349,7 @@ Aunque las operaciones (lecturas y escrituras) ocurren concurrentemente en difer
 ![[Pasted image 20251022201557.png]]
 
 (a) Almacén de datos secuencialmente consistente.
-==(b) Almacén de datos que no es secuencialmente consistente.==
+(b) Almacén de datos que no es secuencialmente consistente.
 
 Se define una firma, esta es el output en el orden que definen los procesos. Vamos a ver el siguiente ejemplo:
 
@@ -366,7 +366,7 @@ Es por esto, que desde Execution 2 a 4 encontramos diferencia entre prints y sig
 IMPORTANTE:
 Para que una ejecución sea **secuencialmente consistente**, **no interesan los tiempos de cambio reales (el tiempo físico)** de las operaciones; únicamente interesa que **se respete el _signature_ globalmente en el sistema**.
 
-### ==Consistencia causal==
+### Consistencia causal
 
 > Diferencia entre eventos que potencialmente están relacionados por la causalidad y los que no lo están.
 
@@ -423,7 +423,7 @@ Esto es medio sobre entendido por prog concurrente, pero por las dudas lo incluy
 
 
 ![[Pasted image 20251023105811.png]]
-==Entiendo que la U es una operación rechazada por estar siendo usada, también entiendo que acá no hay consistencia, simplemente mostramos el comportamiento de los locks.==
+
 
 ## Consistencia centrada en el cliente
 
@@ -465,7 +465,7 @@ Además, hay un **supuesto muy importante**, es que se considera que es un siste
   
 - No se proporciona garantía alguna con respecto a accesos concurrentes de diferentes clientes.
   
-  ==Una conversación con el chat ya que la segunda afirmación puede ser un poco fuerte:==
+  Una conversación con el chat ya que la segunda afirmación puede ser un poco fuerte
   
   "Si simplemente asegura garantía de concurrencia con el cliente. Como se manejan las operaciones concurrentes entre réplicas? Pienso que si, por ejemplo en whatsapp, se mandan mensajes al chat hay una actualización de los mensajes que se tiene que dar"
 
@@ -566,14 +566,14 @@ defecto -> error -> falla
    
 4. **De respuesta** (Response failures): respuesta es incorrecta.
 	1. **De valor** (Value failure): La respuesta contiene un valor incorrecto.
-	2. **De transición de estado** (State-transition failure): Se desvía el correcto flujo de control. (==un sistema produce la salida correcta, pero **en el momento equivocado** o **después de que el estado interno ya ha cambiado**, haciéndola obsoleta o incorrecta para el contexto actual.==)
+	2. **De transición de estado** (State-transition failure): Se desvía el correcto flujo de control. (un sistema produce la salida correcta, pero **en el momento equivocado** o **después de que el estado interno ya ha cambiado**, haciéndola obsoleta o incorrecta para el contexto actual.)
 5. **Arbitrarios** (Arbitrary failures): puede producir respuestas incorrectas en en momentos arbitrarios (ej: respuestas inconsistentes).
 	1. **Por omisión**: Un componente no realiza una acción que debería haber realizado.
 	2. **Por comisión**: Un componente realiza una acción que no debería haber realizado.
 
 ![[Pasted image 20251023121423.png]]
 
-==Está bueno ver esto, los errores que estamos viendo son tanto de capa física (se cae), de capa de red (falla en comunicación) como posiblemente de aplicación (arbitrarios).==
+Está bueno ver esto, los errores que estamos viendo son tanto de capa física (se cae), de capa de red (falla en comunicación) como posiblemente de aplicación (arbitrarios).
 
 
 ### Detección
@@ -794,7 +794,7 @@ Pero no aseegura el orden de entrega entre mensajes. Para ello, se distinguen cu
 | **Atomic FIFO**                    | **Total y FIFO**             | **Sí** (Todo o Nada)                                       | Garantiza la **ordenación total** de todos los mensajes, _y_ mantiene la propiedad FIFO de los mensajes de un mismo emisor. (Es más fuerte que la Atomicidad pura, que solo garantiza el orden global). |
 | **Atomic Causal**                  | **Total y Causal**           | **Sí** (Todo o Nada)                                       | Garantiza el **orden causal** (causa antes que efecto), y **también** garantiza la atomicidad de entrega y orden total para los mensajes concurrentes.                                                  |
 
-==Repasar diferencia entre atómico y no atómico más allá de la tolerancia a fallas==
+Repasar diferencia entre atómico y no atómico más allá de la tolerancia a fallas
 
 ## Transacciones en servicios
 
