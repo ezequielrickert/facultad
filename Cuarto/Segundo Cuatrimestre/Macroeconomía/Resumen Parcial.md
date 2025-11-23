@@ -485,3 +485,95 @@ Tasa de desempleo= [desempleados/PEA]*100
 
 # Sector público
 
+## Propósito
+
+### Objetivo
+
+>Orientar, dirigir y utilizar los instrumentos que dispone el sector ante la necesidad de estabilizar una coyuntura macroeconómica determinada.
+
+Se plantea la necesidad de intervenir en contextos donde la demanda es insuficiente para un nivel de oferta.
+
+## Intervención
+
+### Herramientas
+
+El sector público tiene tres instrumentos para intervenir en la economía:  
+
+- **Impuestos/Tributos** 
+  
+- **Gasto** 
+  
+- **Transferencias**
+
+Las modificaciones de estas 3 herramientas es lo que conforma la **Política Fiscal**, es el plan de acción del sector público a través de sus instrumentos..
+
+#### Impuestos
+
+>La imposición de una obligación monetaria determinada que debe pagar el sector privado (individuos y empresas) derivada de determinadas transacciones económicas tales como consumo, ventas, inversiones, entre otras.
+
+Son la principal fuente de ingresos del sector público (nacional, provincial y municipal) y pueden modificar la distribución del ingreso o afectar en la producción de bienes y servicios.
+
+##### Alicuota
+
+>**Tasa o porcentaje** fijo que se aplica a una base imponible (como un ingreso, una ganancia o una venta) para calcular el monto de un impuesto o una obligación.
+
+##### Base a gravar
+
+>El **monto** o valor sobre el cual se aplica la **alícuota** para calcular el impuesto.
+
+##### Tipos
+
+- **Proporcional**: proporción constante sobre el monto gravado. Alícuota constante sobre la base a gravar. ej. IVA
+  
+- **Progresivo**: proporción creciente del monto gravado. Alícuota creciente a medida que aumenta la base a gravar. ej. impuesto a las ganancias
+  
+- **Regresivo**: proporción decreciente del monto gravado. Alícuota decreciente a medida que aumenta la base a gravar.
+
+Los impuestos también pueden ser:
+
+- **Directos**: se aplica el impuesto en el momento de la generación del monto a gravar/directamente sobre la actividad a gravar.
+  
+	- Gravan la **obtención** de la riqueza (tu Ingreso) o la **posesión** de la riqueza (tu Patrimonio).
+  
+- **Indirectos**: se aplica el impuesto cuando se utiliza el monto a gravar.
+  
+	- Gravan el **uso** que le das a ese ingreso, la **transacción**.
+
+
+### Comportamiento
+
+Se esperan los siguientes principios del sistema impositivo:
+
+- **Equidad**: reparto equitativo de la carga impositiva. Aquellos que sean más beneficiados con los servicios públicos deben enfrentar mayor carga impositiva (mayor nivel de impuesto).
+  
+- **Neutralidad**: deber ser un factor que afecte lo menos posible al funcionamiento del mercado.
+  
+- **Simplicidad**: no debe ser un factor de complejidad en su funcionamiento y debería ser eficaz respecto al objetivo recaudatorio.
+
+
+## Política Fiscal
+
+> Las decisiones del gobierno, gestionado por el Poder Ejecutivo, en relación a los gastos, impuestos y transferencias que realiza el sector en un período determinado de tiempo.
+
+Se define formalmente en la ley de Presupuesto Público aunque se disponen de modificaciones derivadas ante una coyuntura en particular.
+
+### Gasto público
+
+Desde el gasto público el gobierno intenta influir en la magnitud del gasto agregado (demanda) conformado también por el consumo y la inversión.
+
+- Ante un aumento del gasto público se intentará expandir la demanda agregada: política fiscal expansiva. 
+  
+- Ante una disminución del gasto público se intentará contraer la demanda agregada: política fiscal contractiva.
+
+### Política tributaria
+
+Desde la política tributaria se intenta modificar el ingreso/renta disponible de la economía y el ahorro agregado a través del ingreso disponible.
+
+- Ante aumento de los impuestos se intentará contraer la demanda agregada: política fiscal contractiva. 
+
+- Ante una disminución de los impuestos se intentará expandir la demanda agregada: política fiscal expansiva.
+
+La política fiscal tributaria denota la idea de factor estabilizador automático. 
+- La recaudación tributaria aumenta en períodos de crecimiento de la renta nacional o PIB.
+  
+- La recaudación tributaria disminuye en períodos de disminución de la renta nacional o PIB, dejando lugar al aumento del gasto y/o transferencias.
