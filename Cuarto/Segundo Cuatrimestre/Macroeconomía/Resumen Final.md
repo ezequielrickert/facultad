@@ -164,3 +164,126 @@ Refleja las principales cuentas que se derivan de las transacciones realizadas d
   
 - **Pasivo no monetario**: conformado por las obligaciones financieras con organismos internacionales de crédito, los títulos emitidos por la entidad (por ej, Letras de Liquidez: LELIQs) y los depósitos del sector público.
 
+### Sistema bancario moderno
+
+- Funciona a través de bancos comerciales regulados por una autoridad monetaria nacional o Banco Central.
+  
+- Los bancos comerciales son las instituciones financieras que tienen la autorización para aceptar depósitos y generar crédito.
+  
+- La regulación que realiza el Banco Central es sobre las normas y condiciones que deben cumplir los bancos comerciales en su funcionamiento.
+
+### Reservas bancarias
+
+>Las reservas se componen del efectivo en caja de los bancos y los depósitos de los bancos en el Banco Central (denominados encajes).
+
+Los bancos preservan una proporción de los depósitos en efectivo y otra parte en el Banco Central por dos motivos: 
+1. Para hacer frente al retiro de depósitos por parte de los clientes. 
+2. Por normas de regulación prudencial del Banco Central.
+
+En otras palabras, es una forma de cuidar la plata para que los clientes no retiren masivamente por especulación causando fluctuaciones repentinas de la economía.
+
+La proporción que los bancos deben guardar en forma de activos líquidos se refieren a los conceptos de efectivo mínimo y encaje obligatorio.
+
+#### Efectivo mínimo
+
+>Proporción de los depósitos y otros pasivos bancarios, ya sea en moneda local y/o extranjera, que las entidades financieras (esencialmente bancos) deben mantener disponibles.
+
+Es medio confusa esta definición, el dinero mínimo es la cantidad de dinero que tiene que estar custodiada, en forma de efectivo, por el banco central. De esta forma, la plata esta detenida en el banco central pero disponible para su posible uso. 
+
+El valor se define en base a la política de regulación monetaria, a mayor valor del efectivo mínimo, más reduccionista la economía.
+
+#### Encaje
+
+Otra forma de medir, es la cantidad de dinero que el banco tiene retenida por el banco central sobre la cantidad de dinero que se depositó. De esta forma, a mayor encaje, menor actividad habrá en la economía.
+
+#### Operaciones activas y pasivas
+
+Los bancos comerciales realizan dos tipos de actividades en su objetivo de obtener rentabilidad: 
+1. **Operaciones pasivas**: captación de dinero mediante depósitos, generación de fondos de inversión, entre otros. 
+2. **Operaciones activas**: se refieren a la creación de recursos financieros a través de la utilización del dinero captado. Los más habituales se refieren a la concesión de créditos a individuos, empresas, instituciones de gobierno, entre otros.
+
+
+### Creación de dinero
+
+- **Creación primaria**: es la que realiza el Banco Central en su potestad de emisión monetaria. 
+  
+- **Creación secundaria**: es la que realizan los bancos comerciales en el proceso de generación de crédito.
+
+>La capacidad de creación de dinero por parte de los bancos comerciales está limitada por el nivel de reservas impuesto por la autoridad monetaria en su rol de regulador.
+
+Si el Banco Central emite un billete de $1.000 en su rol de agente de creación primaria de dinero, ese monto constituirá una fuente potencial de expansión secundaria de dinero.
+
+#### Creación de dinero bancario
+
+Es desencadenada por creación primaria que luego se inserta en la creación secundaria.
+
+En ese proceso intervienen tres agentes: 
+
+1. **La autoridad monetaria o Banco Central**: encargado de crear la liquidez o recursos monetarios primarios del sistema a partir de la cual los bancos e intermediarios financieros generan dinero y crédito. 
+   
+2. **El sistema bancario**: sistema por el cual se genera el proceso secundario de creación de dinero mediante el crédito. 
+   
+3. **El público**: individuos y empresas que deciden cómo distribuir los recursos financieros que poseen.
+
+Básicamente, si ingresan $1.000 a una economía, llegan a un banco. Cuando el banco recibe estos $1.000, haciendo de cuenta que tiene un encaje de 10%, tiene capacidad de prestar $900. Luego estos $900 ingresan a otro banco, este ahora puede prestar, $810. Estos $810 luego ingresan a otro banco, etc... Así podemos ver como el valor de $1.000, pasan a tener el valor de $1.000 + $900 + $810 + ...
+
+### Sistema financiero argentino
+
+Compuesto por 2 intermediarios:
+
+- **Intermediarios bancarios**: está compuesto por los bancos comerciales cuyos activos financieros secundarios o indirectos son aceptados como medios de pago, es decir, dinero.
+  
+- **Intermediarios no bancarios**: compuestos principalmente por agentes financieros cuyos activos indirectos no son dinero, como instituciones de inversión que emiten y administran títulos financieros.
+
+La diferencia es que si bien ambos reciben el dinero y lo usan, el intermediario bancario lo puede usar para generar dinero válido en la economía, haciendo que el dinero se multiplique, mientras que el no bancario no.
+
+#### Intermediarios bancarios
+
+- **Banco Central**: en nuestro país el Banco Central no concede financiamiento a individuos ni empresas, sino que puede otorgar financiamiento a otros países, al sector público y a otras entidades financieras.
+
+- **Bancos públicos y privados**: financian al sector público y privado. El financiamiento al sector público se instrumenta mediante compras de títulos públicos de corto o largo plazo. Mientras que el financiamiento al sector privado se realiza a través del crédito.
+
+#### Intermediarios no bancarios
+
+- **Cajas de ahorro**: entidades que captan fondos de pequeños ahorristas y, mediante los mismos, pueden generar crédito a un universo acotado del sector privado. 
+  
+- **Cooperativas de crédito**: operan de forma similar a los bancos comerciales pero están formadas por cooperativistas. Pueden prestar al sector público y privado generalmente con un fin más especifico como proyectos productivos determinados o créditos vinculados con la producción.
+
+## Política Monetaria
+
+A través de la política monetaria el Banco Central intentará modificar la cantidad de dinero de la economía y/o la tasa de interés.
+
+### Expansiva
+Una política monetaria **expansiva** se refiere a la acción de la autoridad monetaria para aumentar la cantidad de dinero. Esto se realiza mediante un mayor crédito en la economía y/o una disminución de la tasa de interés de mercado (tasa de referencia).
+
+### Contractiva
+Una política monetaria **contractiva** se refiere a la acción de la autoridad monetaria a los efectos de contraer la cantidad de dinero. Esto se puede realizar mediante una disminución del crédito en la economía y/o un aumento de la tasa de interés de mercado (tasa de referencia).
+
+### Efectos
+
+>La política monetaria, mediante la modificación de la oferta de crédito, afecta la actividad económica a través de la demanda agregada.
+
+Una política monetaria expansiva desplaza la curva de demanda agregada debido al aumento del crédito, dada la reducción de la tasa de interés, y luego aumento del consumo y/o la inversión.
+
+Una política monetaria restrictiva contrae la curva de demanda agregada debido a la disminución del crédito y luego del consumo y/o la inversión debido al aumento de la tasa de interés.
+
+### Inflación
+
+La política monetaria gestiona sobre las variables nominales de la economía tales como la tasa de interés de referencia como así también sobre el tipo de cambio.
+
+>El objetivo central de la política monetaria es la estabilidad del nivel de precios de la economía.
+
+#### Enfoque monetarista
+
+Esta puesto en pasos de razonamiento de lo que ocurre.
+
+1. El aumento de la demanda agregada, que ejerce una potencial presión sobre el nivel de precios, se explica por el aumento de la cantidad de dinero.
+   
+2. El aumento de la cantidad de dinero puede generar un aumento de la demanda por encima del crecimiento de la producción.
+   
+3. Dado que los factores de producción e inversión se pueden incrementar en el mediano y largo plazo, los precios deberán aumentar en respuesta al aumento de la demanda.
+   
+4. El aumento de la cantidad de dinero genera aumento general del nivel de precios, es decir, de la inflación.
+
+#### Enfoque keynesiano
+
