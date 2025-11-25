@@ -287,3 +287,8 @@ Esta puesto en pasos de razonamiento de lo que ocurre.
 
 #### Enfoque keynesiano
 
+En este enfoque, se toma en cuenta que existe una demanda de dinero como un activo:
+
+- Si el dinero se demanda como un activo, la modificación en la oferta de dinero puede no ser transmitida directamente a los precios.
+  
+- La inflación de costos es aquella que se origina en el lado de la oferta, como consecuencia de un incremento de los costos (Cambios tecnológicos, cambios en disponibilidad de insumos básicos, etc).
