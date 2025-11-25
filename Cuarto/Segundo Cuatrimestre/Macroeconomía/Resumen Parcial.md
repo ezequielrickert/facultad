@@ -152,8 +152,8 @@ Esto genera una **creciente fragilidad financiera** para la economía:
 > Conjunto de medidas que componen un plan de acción de gobierno, destinada a influir sobre la marcha de la economía.
 
 El plan de acción macroeconómico se compone de un campo diverso de políticas: 
-- **Política monetaria y cambiaria**: control de la **cantidad de dinero** (Oferta Monetaria) en la economía. La monetaria procura la estabilidad de los precios mientras que la cambiaria busca la competitividad y estabilidad. Dentro de estas: inflación.
 
+- **Política monetaria y cambiaria**: control de la **cantidad de dinero** (Oferta Monetaria) en la economía. La monetaria procura la estabilidad de los precios mientras que la cambiaria busca la competitividad y estabilidad. Dentro de estas: inflación.
 
 > La política monetaria y cambiaria es llevada a cabo por la autoridad monetaria o Banco Central.
   
@@ -215,7 +215,7 @@ Objetivos clave:
 	  
 	* En general nos referimos a una moneda de referencia internacional (divisa) respecto a la moneda nacional.
 	  
-	* El objetivo es establecer un precio estable y competitivo respecto a otras economías;
+	* El objetivo es establecer un precio estable y competitivo respecto a otras economías.
 
 
 
